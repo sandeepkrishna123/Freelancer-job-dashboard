@@ -1,0 +1,56 @@
+.dashboard-container {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.dashboard-container h2 {
+  color: #333;
+}
+
+.dashboard-container button {
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.dashboard-container button:hover {
+  background-color: #0056b3;
+}
+
+.job-list {
+  margin-top: 30px;
+}
+
+.job-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+.job-item h4 {
+  color: #2c3e50;
+}
+
+.job-item p {
+  font-size: 14px;
+  color: #555;
+}
+
+.job-item button {
+  margin-top: 10px;
+  background-color: #28a745;
+}
+
+.job-item button:hover {
+  background-color: #1e7e34;
+}

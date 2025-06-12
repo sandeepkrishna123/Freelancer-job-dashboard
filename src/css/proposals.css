@@ -1,0 +1,41 @@
+.proposals-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.proposal-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.proposal-card p {
+  margin: 8px 0;
+  font-size: 15px;
+}
+
+.proposal-actions button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.proposal-actions button:first-child {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.proposal-actions button:last-child {
+  background-color: #28a745;
+  color: white;
+}

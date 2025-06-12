@@ -1,0 +1,50 @@
+.postjob-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 35px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.postjob-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.postjob-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.postjob-container input,
+.postjob-container textarea {
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.postjob-container input:focus,
+.postjob-container textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.postjob-container button {
+  padding: 12px;
+  font-size: 15px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.postjob-container button:hover {
+  background-color: #0056b3;
+}
